@@ -1,0 +1,21 @@
+{
+  "name": "Yellow-Data",
+  "version": "0.0.1",
+  "description": "Fetches Tabletop.js and caches on s3",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "RDS",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.1.2",
+    "cron": "^1.0.5",
+    "express": "^4.10.6",
+    "tabletop": "^1.3.5"
+  },
+  "engines":{
+    "node": "0.10.29"
+  }
+}
