@@ -6,9 +6,6 @@ AWS = require('aws-sdk');
 CronJob = require('cron').CronJob;
 Tabletop = require('tabletop');
 
-AWS.config.loadFromPath('./aws.json');
-
-
 
 function writeJsonToAmazon(array){
 	var s3 = new AWS.S3();
